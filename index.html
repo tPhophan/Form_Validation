@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="frm" class="frm">
+            <h2>Form Validation</h2>
+            <div class="frm-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" class="input" placeholder="กรอกชื่อผู้ใช้">
+                <small>error message</small>
+            </div>
+            <div class="frm-control">
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" class="input" placeholder="กรอกอีเมล์">
+                <small>error message</small>
+            </div>
+            <div class="frm-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input" placeholder="กรอกรหัสผ่าน">
+                <small>error message</small>
+            </div>
+            <div class="frm-control">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-Password" class="input" placeholder="ยืนยันรหัสผ่าน">
+                <small>error message</small>
+            </div>
+            <button type="submit" id="submit-btn" class="submit-btn">ยืนยัน</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
